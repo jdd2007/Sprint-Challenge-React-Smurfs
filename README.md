@@ -29,9 +29,24 @@ In this challenge, you will create a Single Page Application complete with Clien
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Explain the differences between `client-side routing` and `server-side routing`.
+
+Which one is inherently better? There is not a definitive correct answer, but server-side routing and client-side routing each have clear advantages and disadvantages. Server-side routing has been around for a longer time, so it's familiar and ubiquitous. It does not send a lot of data and entire pages unnecessarily, unlike client-side routing, which loads a large amount information that might not be ever accessed by the user. Client-side routing therefore has slower initial load times. However, after it loads, client-side routing really shines. It is much faster, since it does not need to refresh, part of its superior UX. 
+
 - [ ] What does HTTP stand for?
+
+HTTP stands for Hyper Text Transfer Protocol
+
 - [ ] What does CRUD stand for?
+
+CRUD stands for Create Read Update Destroy
+
 - [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+
+Create - we use the POST method to send data to be used in storage or creation
+Read - we use the GET method to request information from a server
+Update - we use the PUT method to update the information of a resource
+Destroy - we use the DELETE http request to tell a server to delete data
+
 - [ ] Mention three tools we can use to make AJAX requests.
 
 
